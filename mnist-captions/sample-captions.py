@@ -11,6 +11,7 @@ import math
 import cPickle as pickle
 from PIL import Image
 import math
+import argparse
 
 #np.random.seed(np.random.randint(1 << 30))
 #rng = RandomStreams(seed=np.random.randint(1 << 30))
@@ -39,7 +40,7 @@ def find_max(array, index):
 
 if __name__ == '__main__':
 
-    parser = ArgumentParser()
+    parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, help='json settings for model')
     parser.add_argument('--weights', type=str, help="path to hdf5 file of trained weights")
     args = parser.parse_args()
