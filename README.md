@@ -70,7 +70,7 @@ To generate images from captions after training run
 python sample-captions.py --model models/coco-captions-32x32.json --weights /path/to/trained-weights --dictionary dictionary.pkl --gan_path gan.hdf5 --skipthought_path /path/to/skipthoughts-folder
 ```
 
-**Note**: I have been caught up with other non-research stuff, so I will add baseline model files like noAlignDraw and others during the week of Feb 29 - Mar 6.
+**Note**: I have been caught up with other non-research stuff, so I will add baseline model files like noAlignDraw and others during the week of Feb 29 - Mar 6. The author has used theano 0.7 so better use this verison so it becomes really easy to debug and ask for help if the need be.
 
 Feel free to email me if you have some questions or if you are uncertain about some parts of the code.
 
